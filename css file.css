@@ -1,0 +1,170 @@
+
+        .link{
+            float : right;
+            display: inline; 
+        }
+        a:link{
+            
+            
+            font-size: 25px;
+            padding: 10px;
+            text-decoration: none;
+        }
+        a:hover{
+            text-shadow: 5px 5px 5px  rgb(113, 247, 202);;
+            text-decoration: underline;
+            font-size: 30px;
+            font-style: oblique;
+        }
+        a:visited{
+           
+            color: rgb(0, 0, 0);
+        }
+        a:active{
+            
+            color: red;
+        }
+
+        #back{
+            background-image: url(./images/visualizing-a-post-covid-world-.jpg);
+                background-attachment: fixed;
+
+        }
+        #heading{
+           
+            font-size: 300%;
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline;
+            color: rgb(235, 53, 53);
+    text-decoration: underline;  
+        }
+        
+        dd{
+            border: 5px dashed rgb(247, 69, 69);
+            margin: 0px 50px 50px 50px;
+            padding: 20px;
+            padding-top: 40px;
+font-size: 25px;
+            background: oldlace;
+        }
+        dt{
+            color: white;
+            font-family: monospace;
+            font-size: 30px;
+           
+            text-decoration: underline;  
+            
+        }
+            .body{
+                border: 10px double rgb(247, 69, 69);
+                margin: 0px 50px 50px 50px;
+                padding: 20px;
+                text-align: center;
+            }
+            
+       .left{
+           text-align: left;
+       }
+       #A{
+        border: none;
+   border-top: 10px solid #ee0d20;
+   width: 100%;
+    text-align: left;
+    padding: 10px 10px 10px 0px;
+  
+    position: fixed;
+ text-shadow: white;
+    background-color: white;
+    }
+    
+        th{
+            color: rgb(138, 38, 38);
+            border-top: 3px solid rgba(253, 136, 136, 0.753);
+        border-bottom: 8px solid black;
+        font-size: 30px;
+        padding: 5px;
+       font-style: italic;
+            text-decoration: underline; 
+        }
+        tr{
+            font-size: 20px;
+            padding: 5px;
+            text-indent: 20px;
+            text-align: center;
+        }
+        .even{
+            background: rgba(250, 124, 124, 0.39);
+        }
+        tr:hover{
+            background: rgba(168, 233, 241, 0.603);
+        }
+        input{
+            border: 3px solid  rgb(19, 29, 119);
+            color: #fc0202;
+            margin: 5px;
+            padding: 5px; 
+            cursor:text;
+        }
+        input:active{
+            color: antiquewhite;
+        }
+        input:focus{
+           background: #f5654c79;
+        }
+        input:hover{
+            background: #e8f8ff;
+        }
+        textarea{
+            border: 3px solid  rgb(19, 29, 119);
+            color: #fc0202;
+            margin: 5px;
+            padding: 5px; 
+        }
+        textarea:hover{
+            background: #e8f8ff;
+        }
+        fieldset{
+            border: 15px double red;
+            
+            background: #eef9ff;
+        }
+        legend{
+            border: 5px  solid rgb(19, 29, 119);
+            font-size: 25px;
+            padding : 5px;
+            color: #fc0202;
+            background: #d2eefc;
+            margin-right: 500px;
+        }
+        #button{
+            color: rgb(19, 29, 119);
+            background: rgba(255, 0, 0, 0.171) ;
+            text-shadow: 5px 5px 3px white;
+            border-radius: 10px;
+            border: none;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        #name{
+            background-image: url('https://www.iconexperience.com/_img/o_collection_png/yellow_dark_grey/16x16/plain/user.png');
+        background-repeat: no-repeat;
+        background-position: 150px 3px;
+        }
+        #email{
+            background-image: url('https://www.iconexperience.com/_img/o_collection_png/green_dark_grey/16x16/plain/symbol_at.png');
+            background-repeat: no-repeat;
+            background-position: 150px 3px;
+        }
+        #contact{
+            background-image: url('https://www.iconexperience.com/_img/o_collection_png/green_dark_grey/24x24/plain/telephone2.png');
+            background-repeat: no-repeat;
+            background-position: 130px 3px;
+        }
+        #form{
+            border: none;
+            background: none;
+        }
+        #top{
+            padding-top: 30px ;
+        }
+       
